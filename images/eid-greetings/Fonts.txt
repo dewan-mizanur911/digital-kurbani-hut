@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Cinzel
+Author: Natanael Gama
+Url: https://fonts.google.com/specimen/Cinzel
+
+Font: Cinzel Decorative
+Author: Natanael Gama
+Url: https://fonts.google.com/specimen/Cinzel+Decorative
