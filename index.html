@@ -15,14 +15,14 @@
 <body>
     <header>
         <!-- nav section started  -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
-          <div class="container bg-info">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0 fw-bold">
+          <div class="container kurbani-nav-bg">
             <a class="navbar-brand" href="#"><img src="images/eid-greetings/rsz_eid-2.png" alt="" width="40" height="40">Digital Kurbani Kenakata</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -51,10 +51,9 @@
             </div>
           </div>
         </nav>
-        
         <!-- nav section ended  -->
         <!-- slider section started  -->
-        <section class="container">
+        <section class="container pt-5">
           <div id="carouselExampleIndicators" class="carousel slide container mt-5 mb-5 kurbani-slider-bg-cyan rounded-3" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -67,6 +66,7 @@
                   <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center">
                     <h1>Eid Mubarak!</h1>
                     <p>Enjoy the Eid. Need some grocery? You can buy from here!</p>
+                    <button class="btn btn-indigo text-white fw-bold">Why You Can Trust Us?</button>
                   </div>
                   <div class="col-lg-5">
                     <img src="images/eid-greetings/rsz_eid-2.png" class="d-block w-100" alt="...">
@@ -77,8 +77,9 @@
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center">
-                    <h1>Eid Mubarak!</h1>
-                    <p>Enjoy the Eid. Need some grocery? You can buy from here!</p>
+                    <h1>We are always here to serve you</h1>
+                    <p>Buy anything for the first time and get 50% off!</p>
+                    <button class="btn btn-indigo text-white fw-bold">Order Now</button>
                   </div>
                   <div class="col-lg-5">
                     <img src="images/eid-greetings/rsz_eid-3.png" class="d-block w-100" alt="...">
@@ -89,8 +90,9 @@
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center">
-                    <h1>Eid Mubarak!</h1>
-                    <p>Enjoy the Eid. Need some grocery? You can buy from here!</p>
+                    <h1 class="text-center">Having Problem to place any order!</h1>
+                    <p>We can help you out of the problem as quick as possible</p>
+                  <button class="btn btn-indigo text-white fw-bold">Need Help?</button>
                   </div>
                   <div class="col-lg-5">
                     <img src="images/eid-greetings/rsz_eid-4.png" class="d-block w-100" alt="...">
@@ -115,7 +117,7 @@
     <main>
       <!-- catagories section started  -->
       <section class="container">
-        <div class="row g-4 catagories my-5">
+        <div class="row g-4 catagories my-5 pb-4">
           <div class="col-lg-4">
             <div class="d-flex justify-content-between align-items-center kurbani-catagory-bg-warning p-3 rounded text-white">
               <h1>Watch</h1>
@@ -138,7 +140,7 @@
       </section>
       <!-- catagories section ended  -->
       <!-- shoes section started   -->
-      <section class="container" id="shoes">
+      <section class="container my-5 pt-5" id="shoes">
         <h1 class="fs-1">Shoes</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
             <div class="col">
@@ -181,7 +183,7 @@
       </section>
       <!-- shoes section ended   -->
       <!-- bags section started  -->
-      <section class="container" id="bags">
+      <section class="container pt-5" id="bags">
         <h1>Bags</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-2">
             <div class="col">
@@ -224,7 +226,7 @@
       </section>
       <!-- bags section ended -->
       <!-- magazine section started  -->
-      <section id="lifeStyle" class="magazine container my-5">
+      <section id="lifeStyle" class="magazine container my-5 py-5">
         <h1>Lifestyle</h1>
         <div class="row g-4 row-cols-lg-2 row-cols-md-1 row-cols-sm-1">
           <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-white p-5" style="background-image: url(images/beautiful/beautiful-1.jpg); background-size: cover; height: auto;">
@@ -254,7 +256,7 @@
       </section>
       <!-- magazine section ended  -->
       <!-- simple section started -->
-        <section id="simple" class="container simple-container">
+        <section id="simple" class="container simple-container py-5">
           <div class="row g-4 row-cols-lg-2 row-cols-sm-1">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
               <p class="fs-1"><span class="fw-bold">The Beauty of</span><br> Simplicity</p>
@@ -268,7 +270,7 @@
         </section>
       <!-- simple section ended -->
       <!-- contact section started -->
-      <section id="contact" class="container contact d-flex flex-column justify-content-center align-items-center text-white text-center pt-3 rounded-3 mt-5">
+      <section id="contact" class="container contact d-flex flex-column justify-content-center align-items-center text-white text-center py-3 rounded-3 mt-5">
         <div class="details mt-5">
           <h1 class="text-center">Contractor of Digital Kurbani Hut</h1>
           <div class="col-lg-12 d-flex justify-content-center">
@@ -276,7 +278,7 @@
           </div>   
           <button class="btn btn-info text-white fs-3 btn-discount">Get a offer 40% Discount</button> 
         </div>
-        <div class="information container my-5 fs-5 pt-5">
+        <div class="information container-fluid my-5 fs-5 pt-5">
           <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
             <div class="col-lg-4 d-flex flex-column text-center">
               <a href="">

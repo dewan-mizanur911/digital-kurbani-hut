@@ -1,5 +1,18 @@
+body{
+    background-color: lightgrey;
+}
+.container{
+    background-color: white;
+    border-radius: .5rem;
+}
+.kurbani-nav-bg{
+    background-color: #6e3fb9a4;
+}
 .carousel-height{
     height: 500px;
+}
+.btn-indigo{
+    background-color: #6610f2;
 }
 .kurbani-catagory-bg-warning{
     background-color: orange;
