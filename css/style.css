@@ -30,7 +30,6 @@
 .contact{
     background-image: url(../images/eid-greetings/eid.jpg);
     background-size: cover;
-    height: auto;
 }
 .btn-discount:hover{
     background-color: purple;
