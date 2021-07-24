@@ -1,6 +1,32 @@
 .kurbani-slider-bg-cyan{
-    background-color: #9d68f3;
+    background-color: #f7c9c4;
 }
 .carousel-height{
     height: 500px;
+}
+.kurbani-catagory-bg-warning{
+    background-color: orange;
+}
+.kurbani-catagory-bg-orchid{
+    background-color: orchid;
+}
+.kurbani-catagory-bg-blue{
+    background-color: blue;
+}
+.catagories img{
+    width: 100px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.btn-buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.kurbani-bg-reddish{
+    background-color: #f7c9c4;
 }
