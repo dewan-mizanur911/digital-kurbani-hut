@@ -30,3 +30,24 @@
 .kurbani-bg-reddish{
     background-color: #f7c9c4;
 }
+.contact{
+    background-image: url(../images/eid-greetings/eid.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.btn-discount:hover{
+    background-color: purple;
+
+}
+.information a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    height: 300px;
+    background-image: url(../images/martin-zangerl-b3SMh4UKgrQ-unsplash.jpg);
+    background-size: cover;
+}
+.search-box{
+    background-color: white;
+}
