@@ -30,7 +30,7 @@
 .contact{
     background-image: url(../images/eid-greetings/eid.jpg);
     background-size: cover;
-    height: 600px;
+    height: auto;
 }
 .btn-discount:hover{
     background-color: purple;
@@ -47,6 +47,9 @@
 }
 .search-box{
     background-color: white;
+}
+.simple-container{
+    height: auto;
 }
 .simple-container img{
     width: 100%;
